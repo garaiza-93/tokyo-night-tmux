@@ -7,4 +7,4 @@ In your `tmux.conf`:
 ```
 set -g @plugin "garaiza-93/tokyo-night-tmux"
 ```
-![Image of tmux session using this theme](https://imgur.com/a/XF6Oa5L)
+![tn-tmux](https://user-images.githubusercontent.com/57430880/201505726-c65d9656-0111-436a-bd40-b6361d67c742.png)
