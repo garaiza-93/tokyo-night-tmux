@@ -8,10 +8,12 @@ RSEPARATOR=
 ICON_TIME=
 ICON_DATE=
 LEFT_TEXT="#{user}"
-#set -g status-right-length 150
+
+set -g pane-active-border-style "fg=#7AA2F7"
+set -g pane-border-style 'fg=#3B4261'
+
 set -g status-bg $SLATE
 #+--- Bars LEFT ---+
-# Hostname 
 set -g status-left "#[fg=$SLATE,bg=$SKYBLUE,bold] $LEFT_TEXT "
 #+--- Windows ---+
 set -g status-justify left
