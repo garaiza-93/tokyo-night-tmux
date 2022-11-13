@@ -7,6 +7,4 @@ In your `tmux.conf`:
 ```
 set -g @plugin "garaiza-93/tokyo-night-tmux"
 ```
-
-### Screenshots
-#### SOON.
+![](https://imgur.com/a/XF6Oa5L)
