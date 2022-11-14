@@ -1,4 +1,4 @@
-# Tokyo Night Tmux
+# Tokyo Storm Tmux
 The world's best theme, but for tmux. Simple, clean, and easy on the eyes.
 No other functionality other than looking good. Open a PR or fork if you want to add more functionality.
 ### Installation using TPM
