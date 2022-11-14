@@ -1,7 +1,10 @@
 # Tokyo Night Tmux
 The world's best theme, but for tmux. Simple, clean, and easy on the eyes.
 No other functionality other than looking good. Open a PR or fork if you want to add more functionality.
-### Installation using TPM
+
+## Available Themes
+For now, only Tokyo Night (Storm) is available. Night and Moon are WIP. 
+## Installation using TPM
 
 In your `tmux.conf`:
 ```
