@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 SLATE=#1F2335
 WHITE=#A9B1D6
 GRAY=#3B4261
@@ -9,19 +9,19 @@ ICON_TIME=
 ICON_DATE=
 LEFT_TEXT="#{user}"
 
-set -g pane-active-border-style "fg=#7AA2F7"
-set -g pane-border-style 'fg=#3B4261'
+tmux set-option -gq pane-active-border-style "fg=#7AA2F7"
+tmux set-option -gq pane-border-style 'fg=#3B4261'
 
-set -g status-bg $SLATE
+tmux set-option -gq status-bg $SLATE
 #+--- Bars LEFT ---+
-set -g status-left "#[fg=$SLATE,bg=$SKYBLUE,bold] $LEFT_TEXT "
+tmux set-option -gq status-left "#[fg=$SLATE,bg=$SKYBLUE,bold] $LEFT_TEXT "
 #+--- Windows ---+
-set -g status-justify left
+tmux set-option -gq status-justify left
 # Focus
-set -g window-status-current-format "#[fg=$SKYBLUE,bg=$GRAY]   #I #W #[fg=$GRAY,bg=$SLATE]$RSEPARATOR"
+tmux set-option -gq window-status-current-format "#[fg=$SKYBLUE,bg=$GRAY]   #I #W #[fg=$GRAY,bg=$SLATE]$RSEPARATOR"
 # Unfocused 
-set -g window-status-format "#[fg=$WHITE,bg=$SLATE]  #I #W #F "
+tmux set-option -gq window-status-format "#[fg=$WHITE,bg=$SLATE]  #I #W #F "
 
 #+--- Bars RIGHT ---+
-set -g status-right "#[fg=$SKYBLUE,bg=$GRAY] $ICON_DATE %Y-%m-%d #[fg=$SLATE,bg=$SKYBLUE] $ICON_TIME %H:%M "
-set -g window-status-separator ''
+tmux set-option -gq status-right "#[fg=$SKYBLUE,bg=$GRAY] $ICON_DATE %Y-%m-%d #[fg=$SLATE,bg=$SKYBLUE] $ICON_TIME %H:%M "
+tmux set-option -gq window-status-separator ''
